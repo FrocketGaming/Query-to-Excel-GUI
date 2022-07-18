@@ -83,7 +83,10 @@ class Layout(tk.Tk):
 
         df.to_excel(
             f'writer', index=False) 
+        writer.save()
 
+        saved = tk.Label(self, text="Successfully saved", bg="#282a36", fg='#fff', font='Cascadia 10  bold')
+        saved.grid(column=0, row=8, rowspan=9, pady=(15, 5), padx=(5, 0))
 
     def connection(self):
         pw = self.password.get()
