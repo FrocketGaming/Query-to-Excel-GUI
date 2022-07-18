@@ -1,0 +1,5 @@
+attr==0.3.2
+attrs==21.4.0
+cx_Oracle==8.3.0
+pandas==1.4.2
+SQLAlchemy==1.4.39
